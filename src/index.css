@@ -6,8 +6,151 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* if we select elements from screen */
+.select{
+  background-color: #2f70e1;
+  color: #dedede;
+  font-weight: bold;
+ 
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.select::after{
+  position: absolute;
+  right:10px;
+  content: ">";
+  color: white;
+}
+.unselect{
+  color: black;
+}
+/* the main body of ipod */
+.outer{
+  height:30rem;
+  width: 17rem;
+  margin: auto;
+  background-color: gray;
+  box-shadow: inset 10px 10px 50px #151313;
+  border-radius: 10px;
+  -webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(75%, transparent), to(rgba(199, 187, 187, 0.5)));
+}
+
+
+
+/* design of the wheel  */
+.right{
+  position: absolute;
+  right: 5px;
+  top:80px;
+  height: 45px;
+  width: 45px;
+}
+.left{
+  position: absolute;
+  left: 5px;
+  top:80px;
+  height: 45px;
+  width: 45px;
+}
+.left img{
+  transform: rotateZ(180deg);
+}
+.top{
+  position: absolute;
+  left: 76px;
+  top:5px;
+  height: 45px;
+  width: 45px;
+}
+.down{
+  position: absolute;
+  left: 80px;
+  bottom:5px;
+  height: 45px;
+  width: 45px;
+}
+/* design for center button */
+.center-button
+{
+  position: absolute;
+  left: 56px;
+  top:55px;
+  height: 88px;
+  width: 88px;
+  border-radius: 50%;
+  background-color: grey;
+}
+/* design for display screen */
+.display-screen
+{
+  width: 16.7rem;
+  height:15rem;
+cursor: pointer;  
+border-radius: 10px;
+border:1px solid black;
+
+
+}
+
+.inner-screen{
+  border: 1px solid black;
+  width: 137px;
+  height: 14.5rem;
+ 
+  background-color: rgb(158, 155, 155);
+  border-radius: 10px;
+  box-shadow: 1px 5px 5px 5px black;
+ 
+  
+}
+
+/* design for displaying list items */
+.list li
+{
+ margin-left: -40px;
+}
+
+
+li{
+  list-style: none;
+  padding: 9px;
+  position: relative;
+}
+ul li:hover{
+  background-color: #2f70e1;
+  color: white;
+  opacity: 1;
+
+}
+.menu
+{
+  font-size: 20px;
+  font-family: "Lobster",cursive;
+}
+
+ ul li:hover:after {
+  position: absolute;
+  right:10px;
+  content: ">";
+  color: white;
+}
+
+#display{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 98%;
+  box-shadow: 3px 3px 3px black;
+  border: 5px 4px 3px 1px solid black;
+}
+
+.display-screen
+{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRTwsE8OpF3chgRewUeB4BEHo-46VoYZZB_jw&usqp=CAU')
+
+}
+
+.menu
+{
+  text-align: center;
+  font-weight: 800;
+  font-size: 25px;
 }
