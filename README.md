@@ -1,4 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an UI of an iPod.
+
+This project was build using React, Html and CSS.
+
+This project use ZingTouch to move the mouse in a circular fashion and select options.
+hosted here https://porushyadav.github.io/Ipod-React/
+
+## Menu
+
+    On clicking menu list of menu come on screen.
+    Click and hold on the circular menu and move the mouse in a circular fashion inside
+    the menu boundary (white circle is the menu) to navigate in the iPod menu
+    On clicking in the center wheel (grey circle) will redirect to the selected menu.
 
 ## Available Scripts
 
