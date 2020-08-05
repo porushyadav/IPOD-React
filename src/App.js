@@ -197,7 +197,8 @@ class App extends React.Component {
         menu:true,
         submenu:true
       })
-      display.style.backgroundImage="url('https://lh3.googleusercontent.com/proxy/fAbIzZ9GJlCpynTIRl9RSYPKmOqRzecmgEuycspDdKrk4x2FOzXlDPolWLRWoj7ewlnXe6nnL2pnGVZ2TeTSdbayHr4aeFdL2cYue8_miK7QMSkjeFvwcRK2')";
+      console.log("asdsa");
+      display.style.backgroundImage="url('https://i.pinimg.com/originals/b4/c4/b3/b4c4b30a8ec510b8190d5364b9198cd5.jpg')";
     }
     else if(games)
     {
